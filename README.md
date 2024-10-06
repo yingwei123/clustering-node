@@ -18,8 +18,8 @@ Node.js, by default, runs on a single thread. While this model is efficient for 
 
 - `main.js`: Entry point for the clustered server
 - `server/app.js`: Single-threaded server implementation
-- `testCluster.js`: Performance comparison script
-- `stressTest.js`: Stress testing utility
+- `test/cluster.js`: Performance comparison script
+- `test/stress.js`: Stress testing script
 - `cluster/`: Contains clustering-related modules
   - `GracefulExit.js`: Handles graceful shutdown of worker processes
 - `server/`: Server-related modules and routes
